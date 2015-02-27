@@ -1,6 +1,6 @@
 Package.describe({
   name: 'johnantoni:meteor-picturefill',
-  version: '0.0.2',
+  version: '0.0.3',
   summary: ' A responsive image polyfill for <picture>, srcset, sizes, and more ~ packaged for Meteor',
   git: 'https://github.com/johnantoni/meteor-picturefill.git',
   documentation: 'README.md'
