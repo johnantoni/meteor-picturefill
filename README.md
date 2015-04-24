@@ -6,17 +6,17 @@ Based on the picturefill js library by Scott Jehl.
 
 http://scottjehl.github.io/picturefill/
 
-#### Install
+### Install
 
     meteor add johnantoni:meteor-picturefill
 
-#### Usage
+### Usage
 
 Examples http://scottjehl.github.io/picturefill/#examples
 
-##### Markup
+### Markup
 
-As HTML
+#### As HTML
 
     <picture>
       <!--[if IE 9]><video style="display: none;"><![endif]-->
@@ -26,11 +26,11 @@ As HTML
       <img srcset="examples/images/medium.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia">
     </picture>
 
-As JADE
+#### As JADE
 
     picture
       | <!--[if IE 9]><video style="display: none;"><![endif]-->
-      source(srcset="/images/picturefill/extralarge.jpg" media="(min-width: 1000px)")
-      source(srcset="/images/picturefill/large.jpg" media="(min-width: 800px)")
+      source(srcset="examples/images/extralarge.jpg" media="(min-width: 1000px)")
+      source(srcset="examples/images/large.jpg" media="(min-width: 800px)")
       | <!--[if IE 9]></video><![endif]-->
-      img(srcset="/images/picturefill/medium.jpg" alt="example image" style="width:100%;")
+      img(srcset="examples/images/medium.jpg" alt="A giant stone face at The Bayon temple in Angkor Thom, Cambodia")
