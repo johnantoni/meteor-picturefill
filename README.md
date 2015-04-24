@@ -1,6 +1,6 @@
 # meteor-picturefill
 
-A responsive image polyfill for <picture>, srcset, sizes, and more. packaged for Meteor
+A responsive image polyfill for picture, srcset, sizes, and more. packaged for Meteor
 
 Based on the picturefill js library by Scott Jehl.
 
